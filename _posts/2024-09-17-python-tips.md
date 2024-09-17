@@ -8,7 +8,7 @@ image: "/assets/images/snake-543243_1280.jpg"
 
 # Tired of for-loops clunking up your code? It's time to simplify with comprehension
 <div style="display: flex; justify-content: center">
-  <img src="https://imgur.com/ZMg2MAx" alt="" style="width:600px;"/> 
+  <img src="https://imgur.com/oXRwpxI" alt="" style="width:600px;"/> 
 </div>
 
 `Comprehension` is a technique in Python used to create data structures like lists and dictionaries in a simple, clean way. It might seem scary at first,
