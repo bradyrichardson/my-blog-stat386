@@ -89,11 +89,11 @@ print(my_list)
 Note that these examples are not an exhaustive list of everything that is possible with list comprehension, but they are meant to give you a quick foundation for learning this concept! Let's move on from list comprehension and check out its not-so-distant cousin, `dictionary comprehension`!
 
 ---
+
+## Dictionary Comprehension
 <div style="display: flex; justify-content: center">
   <img src="https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg" alt="Photo by Pixabay from Pexels" style="width:600px; margin: 0 auto;"/> 
 </div>
-
-## Dictionary Comprehension
 
 We aren't going to expend as much effort going over `dictionary comprehension` because hopefully you get the gist of what is possible through comprehension, and if your brain is still a little wiggly, then this is your invitation to go out and experiment to learn what is possible with dictionary (and list) comprehension yourself! That being said, here is a simple example of dictionary comprehension, see if you can decipher what is going on before looking at the commented result:
 
