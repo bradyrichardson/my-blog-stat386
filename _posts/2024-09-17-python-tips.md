@@ -6,9 +6,10 @@ description: Learn some new python tricks to speed up your development and make 
 image: "/assets/images/snake-543243_1280.jpg"
 ---
 
-# Tired of for-loops clunking up your code? It's time to simplify with comprehension
+# Tired of for-loops clunking up your code? It's time to embrace the Pythonic way
 <div style="display: flex; justify-content: center">
-  <img src="https://imgur.com/ZMg2MAx" alt="" style="width:600px;"/> 
+  <!-- <img src="https://i.imgur.com/ZMg2MAx.png" alt="Python" style="width:600px;"/>  -->
+  <img src="https://imgs.xkcd.com/comics/python.png" alt="Python" style="width:600px;"/> 
 </div>
 
 `Comprehension` is a technique in Python used to create data structures like lists and dictionaries in a simple, clean way. It might seem scary at first,
@@ -63,7 +64,7 @@ print(conditional_list)
 # this will print: [2, 4, 6, 8], where all odd numbers (and 0) have been filtered out
 ```
 
-Another trick we'll go over is called `multiple comprehension`. Multiple comprehension allows us to  Here is what multiple comprehension looks like in code:
+Another trick we'll go over is called `multiple comprehension`. Here is what multiple comprehension looks like in code:
 
 ```python
 my_list = [(x,y) for x in range(5) for y in range(3)]
@@ -88,6 +89,9 @@ print(my_list)
 Note that these examples are not an exhaustive list of everything that is possible with list comprehension, but they are meant to give you a quick foundation for learning this concept! Let's move on from list comprehension and check out its not-so-distant cousin, `dictionary comprehension`!
 
 ---
+<div style="display: flex; justify-content: center">
+  <img src="https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg" alt="Photo by Pixabay from Pexels" style="width:600px; margin: 0 auto;"/> 
+</div>
 
 ## Dictionary Comprehension
 
@@ -119,7 +123,23 @@ Take a second to make an educated guess before looking at the below result!
 # the result is: {1: ['A', 'B', 'C'], 3: ['A', 'B', 'C'], 5: ['A', 'B', 'C']}
 ```
 
-**Congrats!** Now you know a little more about Python and are on your way to becoming a certified Python master. In the event that you want to learn a little more about list and dictionary comprehension, follow the links below!
+**Congrats!** Now you know a little more about Python and are on your way to becoming a certified Python master. List and dictionary comprehensions are powerful tools that can make your code more concise, readable, and efficient. 
+
+## Here are some key takeaways:
+
+1. List comprehensions can replace many for-loops, reducing multiple lines of code to a single line.
+
+2. Dictionary comprehensions offer a similar benefit for creating dictionaries.
+
+3. Both can incorporate conditions and nested structures for more complex operations.
+
+4. Practice is key! Try incorporating these techniques into your daily coding to become more comfortable with them.
+
+---
+
+Remember, the goal is not just to write shorter code, but to write code that's both efficient and easy to understand. It may be the case that you will not need to use these techniques to preserve readability, and that is okay! As you continue your Python journey, you'll develop a sense for when to use these techniques most effectively.
+
+In the event that you want to learn even more about list and dictionary comprehension, or explore other Python features, check out the resources below!
 
 ### Read More 
 
