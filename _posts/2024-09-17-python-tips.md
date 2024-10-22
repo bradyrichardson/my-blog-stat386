@@ -3,7 +3,7 @@ layout: post
 title:  "Python Tips - List and Dictionary Comprehension"
 author: Brady Richardson
 description: Learn some new python tricks to speed up your development and make your code cleaner.   
-image: "/assets/images/snake-543243_1280.jpg"
+image: "https://i.imgur.com/ZMg2MAx.png"
 ---
 
 # Tired of for-loops clunking up your code? It's time to embrace the Pythonic way
