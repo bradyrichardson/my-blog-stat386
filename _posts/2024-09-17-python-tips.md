@@ -2,7 +2,7 @@
 layout: post
 title:  "Python Tips - List and Dictionary Comprehension"
 author: Brady Richardson
-description: Learn some new python tricks to speed up your development and make your code cleaner.   
+description: Learn some new Python tricks to speed up your development and make your code cleaner.   
 image: "https://i.imgur.com/ZMg2MAx.png"
 ---
 
