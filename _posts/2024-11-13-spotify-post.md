@@ -314,7 +314,7 @@ And voila, we have our best song!
 
 For me, the recommended song as of 11/12/24 is:
 
-<!-- <div class="responsive-wrapper">
+<div class="responsive-wrapper">
   <iframe 
     style="border-radius:12px" 
     src="https://open.spotify.com/embed/track/6aC4vyxBpqYo39ym2cNOtw?utm_source=generator" 
@@ -325,7 +325,7 @@ For me, the recommended song as of 11/12/24 is:
     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
     loading="lazy">
   </iframe>
-</div> -->
+</div>
 
 I actually don't love this song, though I believe this one was recommended because I listen to a lot of rap and a lot of folk music. This project was not in vain, though, as I actually found a song I like better in the new releases playlist while working on this project.
 
