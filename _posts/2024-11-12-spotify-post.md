@@ -3,12 +3,12 @@ layout: post
 title:  "The Perfect Song"
 author: Brady Richardson
 description: Using the Spotify API to identify the perfect song specifically for me.
-image: "/assets/images/Spotify_Full_Logo_RGB_Green.png"
+image: "{{ site.baseurl }}/assets/images/Spotify_Full_Logo_RGB_Green.png"
 ---
 
 # Finding new music used to be such a hard problem...until I threw Python at it!
 
-![Spotify Logo](/assets/images/Spotify_Full_Logo_RGB_Green.png)
+![Spotify Logo]({{ site.baseurl }}/assets/images/Spotify_Full_Logo_RGB_Green.png)
 
 ## Introduction
 
@@ -52,7 +52,7 @@ If you don't really care about the details, just know that the code is already w
 
 Once you've successfully created your app and authenticated, the only thing left to do is to actually get the data! Spotify offers a wide variety of endpoints for all of the data that they collect. For this project, I used the following endpoints (code provided in dropdown sections):
 
-![Get User Profile](/assets/images/get_profile.png)
+![Get User Profile]({{ site.baseurl }}/assets/images/get_profile.png)
 <details style="margin-bottom: 20px" style="margin-bottom: 10px">
 <summary>Get User Profile</summary>
 
@@ -72,7 +72,7 @@ async def get_profile(token: str) -> dict:
 ```
 </details>
 
-![Get Top Tracks](/assets/images/get_top_items.png) 
+![Get Top Tracks]({{ site.baseurl }}/assets/images/get_top_items.png) 
 <details style="margin-bottom: 20px">
 <summary>Get Top Tracks</summary>
 
@@ -97,8 +97,8 @@ async def get_top_tracks(token: str, limit: int = 5, time_range: str = "short_te
 ```
 </details>
 
-![Search For Item](/assets/images/search_for_item.png)
-![Get Audio Features](/assets/images/get_audio_features.png)
+![Search For Item]({{ site.baseurl }}/assets/images/search_for_item.png)
+![Get Audio Features]({{ site.baseurl }}/assets/images/get_audio_features.png)
 <details style="margin-bottom: 20px">
 <summary>Search For Item and Get Audio Features</summary>
 
@@ -163,7 +163,7 @@ async def get_track_data(token: str, track_name: str, artist_name: str) -> dict:
 ```
 </details>
 
-![Get Playlist](/assets/images/get_playlist.png)
+![Get Playlist]({{ site.baseurl }}/assets/images/get_playlist.png)
 <details style="margin-bottom: 20px">
 <summary>Get Playlist</summary>
 
@@ -423,31 +423,31 @@ Here is distribution of all of the numerical features—looking at this, it's cl
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - My Top 100 Tracks</summary>
 
-![Distribution of Features](/assets/images/output.png)
+![Distribution of Features]({{ site.baseurl }}/assets/images/output.png)
 </details>
 
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - Global Top 50 Tracks</summary>
 
-![Distribution of Features](/assets/images/output-global.png)
+![Distribution of Features]({{ site.baseurl }}/assets/images/output-global.png)
 </details>
 
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - USA Top 50 Tracks</summary>
 
-![Distribution of Features](/assets/images/output-usa.png)
+![Distribution of Features]({{ site.baseurl }}/assets/images/output-usa.png)
 </details>
 
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - New Releases</summary>
 
-![Distribution of Features](/assets/images/output-new.png)
+![Distribution of Features]({{ site.baseurl }}/assets/images/output-new.png)
 </details>
 
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - Combined (My Top 100, Global Top 50, USA Top 50)</summary>
 
-![Distribution of Features](/assets/images/output-combined.png)
+![Distribution of Features]({{ site.baseurl }}/assets/images/output-combined.png)
 </details>
 
 I thought this was interesting to look at, who knew you could learn so much about your own music taste just by analyzing your top tracks!
