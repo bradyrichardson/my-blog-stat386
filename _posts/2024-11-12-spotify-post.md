@@ -423,31 +423,31 @@ Here is distribution of all of the numerical features—looking at this, it's cl
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - My Top 100 Tracks</summary>
 
-![Distribution of Features](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output.png)
+![Distribution of Features - My Top 100 Tracks]({{ site.baseurl }}/assets/images/output.png)
 </details>
 
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - Global Top 50 Tracks</summary>
 
-![Distribution of Features](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output-global.png)
+![Distribution of Features - Global Top 50 Tracks]({{ site.baseurl }}/assets/images/output-global.png)
 </details>
 
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - USA Top 50 Tracks</summary>
 
-![Distribution of Features](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output-usa.png)
+![Distribution of Features - USA Top 50 Tracks]({{ site.baseurl }}/assets/images/output-usa.png)
 </details>
 
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - New Releases</summary>
 
-![Distribution of Features](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output-new.png)
+![Distribution of Features - New Releases]({{ site.baseurl }}/assets/images/output-new.png)
 </details>
 
 <details style="margin-bottom: 20px">
 <summary>Distribution of Features - Combined (My Top 100, Global Top 50, USA Top 50)</summary>
 
-![Distribution of Features](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output-combined.png)
+![Distribution of Features - Combined (My Top 100, Global Top 50, USA Top 50)]({{ site.baseurl }}/assets/images/output-combined.png)
 </details>
 
 I thought this was interesting to look at, who knew you could learn so much about your own music taste just by analyzing your top tracks!
