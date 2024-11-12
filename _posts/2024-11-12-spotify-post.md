@@ -53,7 +53,7 @@ If you don't really care about the details, just know that the code is already w
 Once you've successfully created your app and authenticated, the only thing left to do is to actually get the data! Spotify offers a wide variety of endpoints for all of the data that they collect. For this project, I used the following endpoints (code provided in dropdown sections):
 
 ![Get User Profile](https://bradyrichardson.github.io/my-blog-stat386/assets/images/get_profile.png)
-<details  markdown='1' style="margin-bottom: 20px" style="margin-bottom: 10px">
+<details  markdown='block' style="margin-bottom: 20px" style="margin-bottom: 10px">
 <summary>Get User Profile</summary>
 
 ```python
@@ -74,7 +74,7 @@ async def get_profile(token: str) -> dict:
 </details>
 
 ![Get Top Tracks](https://bradyrichardson.github.io/my-blog-stat386/assets/images/get_top_items.png) 
-<details markdown='1' style="margin-bottom: 20px">
+<details markdown='block' style="margin-bottom: 20px">
 <summary>Get Top Tracks</summary>
 
 ```python
@@ -101,7 +101,7 @@ async def get_top_tracks(token: str, limit: int = 5, time_range: str = "short_te
 
 ![Search For Item](https://bradyrichardson.github.io/my-blog-stat386/assets/images/search_for_item.png)
 ![Get Audio Features](https://bradyrichardson.github.io/my-blog-stat386/assets/images/get_audio_features.png)
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Search For Item and Get Audio Features</summary>
 
 ```python
@@ -167,7 +167,7 @@ async def get_track_data(token: str, track_name: str, artist_name: str) -> dict:
 </details>
 
 ![Get Playlist](https://bradyrichardson.github.io/my-blog-stat386/assets/images/get_playlist.png)
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Get Playlist</summary>
 
 ```python
@@ -189,7 +189,7 @@ async def get_spotify_playlist(token: str, id: str) -> dict:
 
 Once you have your requests set up, it's as simple as calling the functions and storing the results in a dataframe! For my project specifically, I created a main() function that first authenticates, then it gathers my top 100 personal tracks, the top 50 global tracks, the top 50 USA tracks, and the new releases from the past week.
 
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Main Function</summary>
 
 ```python
@@ -278,7 +278,7 @@ my_track_data, global_track_data, usa_track_data, new_track_data = await main()
 
 Then get the dataframes:
 
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Get Dataframes</summary>
 
 ```python
@@ -300,7 +300,7 @@ new_track_data_df.to_csv('new_releases_tracks.csv', index=False)
 
 Now in order to get the best song according to all of the top tracks we have gathered, we combine the first three dataframes, take the average of each numerical feature, and then dot product the resulting vector with the new releases dataframe. Because of the way that dot products work, we know that the maximum value will correspond to the best song!
 
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Get Best Song</summary>
 
 ```python
@@ -426,31 +426,31 @@ And this is the summary **after I normalized it**, because I used the dot produc
 
 Here is distribution of all of the numerical features—looking at this, it's clear why normalizing the data was necessary. Had I not normalized the data, the outliers in length of the song would have determined which song was selected.
 
-<details  markdown='1'style="margin-bottom: 20px">
+<details  markdown='block'style="margin-bottom: 20px">
 <summary>Distribution of Features - My Top 100 Tracks</summary>
 
 ![Distribution of Features - My Top 100 Tracks](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output.png)
 </details>
 
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Distribution of Features - Global Top 50 Tracks</summary>
 
 ![Distribution of Features - Global Top 50 Tracks](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output-global.png)
 </details>
 
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Distribution of Features - USA Top 50 Tracks</summary>
 
 ![Distribution of Features - USA Top 50 Tracks](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output-usa.png)
 </details>
 
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Distribution of Features - New Releases</summary>
 
 ![Distribution of Features - New Releases](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output-new.png)
 </details>
 
-<details  markdown='1' style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Distribution of Features - Combined (My Top 100, Global Top 50, USA Top 50)</summary>
 
 ![Distribution of Features - Combined (My Top 100, Global Top 50, USA Top 50)](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output-combined.png)
