@@ -314,7 +314,18 @@ And voila, we have our best song!
 
 For me, the recommended song as of 11/12/24 is:
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6aC4vyxBpqYo39ym2cNOtw?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<div class="responsive-wrapper">
+  <iframe 
+    style="border-radius:12px" 
+    src="https://open.spotify.com/embed/track/6aC4vyxBpqYo39ym2cNOtw?utm_source=generator" 
+    width="100%" 
+    height="352" 
+    frameBorder="0" 
+    allowfullscreen="" 
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy">
+  </iframe>
+</div>
 
 I actually don't love this song, though I believe this one was recommended because I listen to a lot of rap and a lot of folk music. This project was not in vain, though, as I actually found a song I like better in the new releases playlist while working on this project.
 
