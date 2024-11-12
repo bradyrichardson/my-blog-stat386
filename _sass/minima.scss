@@ -43,6 +43,13 @@ $on-laptop:        900px !default;
   font-size: $base-font-size * $ratio;
 }
 
+// Add this before the final import statement
+.spotify-embed {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 700px;
+}
+
 // Import partials.
 @import
   "minima/base",

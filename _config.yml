@@ -28,10 +28,12 @@ author: Brady Richardson
 copyright: # Your initials or name or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 
 
+content_security_policy:
+  allow_iframes: true
 
 # Social media users names.  Leave fields blank that you don't want displayed
 twitter_username: 
-github_username:  
+github_username:  bradyrichardson
 linkedin_username: 
 dribbble_username: 
 facebook_username: 
