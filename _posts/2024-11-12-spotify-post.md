@@ -3,7 +3,7 @@ layout: post
 title:  "The Perfect Song"
 author: Brady Richardson
 description: Using the Spotify API to identify the perfect song specifically for me.
-image: "https://bradyrichardson.github.io/my-blog-stat386/assets/images/Spotify_Full_Logo_RGB_Green.png"
+image: "https://bradyrichardson.github.io/my-blog-stat386/assets/images/Spotify_Primary_Logo_RGB_Green-300x300.png"
 ---
 
 # Finding new music used to be such a hard problem...until I threw Python at it!
