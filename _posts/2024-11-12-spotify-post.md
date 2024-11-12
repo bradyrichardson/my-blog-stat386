@@ -14,7 +14,7 @@ image: "https://bradyrichardson.github.io/my-blog-stat386/assets/images/Spotify_
 
 I love music. I love finding new music. I love finding new music that I'll love. But finding new music is hard. It takes time. It takes effort. It takes patience.
 
-So, considering all of this, I decided to use a little bit of Python to make it a little bit easier!
+So, considering all of this, I decided to use a little bit of Python and the Spotify API to make it a bit easier!
 
 
 ## Motivating Question
@@ -70,6 +70,7 @@ async def get_profile(token: str) -> dict:
     else:
         raise Exception(f"Failed to get profile: {response.status_code} - {response.text}")
 ```
+
 </details>
 
 ![Get Top Tracks](https://bradyrichardson.github.io/my-blog-stat386/assets/images/get_top_items.png) 
@@ -95,6 +96,7 @@ async def get_top_tracks(token: str, limit: int = 5, time_range: str = "short_te
     else:
         raise Exception(f"Failed to get top tracks: {response.status_code} - {response.text}")
 ```
+
 </details>
 
 ![Search For Item](https://bradyrichardson.github.io/my-blog-stat386/assets/images/search_for_item.png)
@@ -161,6 +163,7 @@ async def get_track_data(token: str, track_name: str, artist_name: str) -> dict:
     
     return track_data
 ```
+
 </details>
 
 ![Get Playlist](https://bradyrichardson.github.io/my-blog-stat386/assets/images/get_playlist.png)
@@ -181,6 +184,7 @@ async def get_spotify_playlist(token: str, id: str) -> dict:
     else:
         raise Exception(f"Failed to get global tracks: {response.status_code} - {response.text}")
 ```
+
 </details>
 
 Once you have your requests set up, it's as simple as calling the functions and storing the results in a dataframe! For my project specifically, I created a main() function that first authenticates, then it gathers my top 100 personal tracks, the top 50 global tracks, the top 50 USA tracks, and the new releases from the past week.
@@ -263,6 +267,7 @@ async def main():
 
     return track_data, global_track_data, usa_track_data, new_releases_track_data
 ```
+
 </details>
 
 To run it, just call `main()`!
@@ -289,6 +294,7 @@ usa_track_data_df.to_csv('usa_top_50_tracks.csv', index=False)
 new_track_data_df = pd.DataFrame(new_track_data)
 new_track_data_df.to_csv('new_releases_tracks.csv', index=False)
 ```
+
 </details>
 
 
