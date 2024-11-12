@@ -105,7 +105,7 @@ async def get_top_tracks(token: str, limit: int = 5, time_range: str = "short_te
 <summary>Search For Item and Get Audio Features</summary>
 
 ```python
-async def get_track_data(token: str, track_name: str, artist_name: str) -> dict:
+def get_track_data(token: str, track_name: str, artist_name: str) -> dict:
     # first, search for the track
     url = 'https://api.spotify.com/v1/search'
     headers = {
