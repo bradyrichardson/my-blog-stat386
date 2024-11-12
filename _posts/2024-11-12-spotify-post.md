@@ -426,7 +426,7 @@ And this is the summary **after I normalized it**, because I used the dot produc
 
 Here is distribution of all of the numerical features—looking at this, it's clear why normalizing the data was necessary. Had I not normalized the data, the outliers in length of the song would have determined which song was selected.
 
-<details  markdown='block'style="margin-bottom: 20px">
+<details  markdown='block' style="margin-bottom: 20px">
 <summary>Distribution of Features - My Top 100 Tracks</summary>
 
 ![Distribution of Features - My Top 100 Tracks](https://bradyrichardson.github.io/my-blog-stat386/assets/images/output.png)
