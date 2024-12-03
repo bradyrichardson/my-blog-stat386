@@ -462,7 +462,7 @@ I thought this was interesting to look at, who knew you could learn so much abou
 
 Some insights I found out about my own music taste (according to my top 100 tracks). Also note that I did not remove any outliers:
 
-1. On average, my songs fall in the 60% percentile for `popularity`...so unfortunately I am not a hipster.
+1. On average, my songs fall in the 60th percentile for `popularity`...so unfortunately I am not a hipster.
 2. The average `loudness` of my songs is about -7.475900dB, which tends to be towards the higher end of the spectrum (the scale is -60dB to 0dB).
 3. The average `valence` of my songs is 0.341277, which means that my songs are on average more negative than positive. That makes sense because dating in Provo sucks.
 4. According to my top 100, 46/100 are `explicit`. Sounds like I need to reconsider the type of music I listen to.
@@ -473,16 +473,12 @@ There are certainly more insights that can be drawn from my data, but I hope tha
 
 I highly recommend trying this out for yourself! The code is available on my [GitHub](https://github.com/bradyrichardson/spotify), 
 
-## Next Steps
+## Conclusion and Next Steps
 
-I think a logical next step would be to use the data I have gathered to get automatically get a new song each week. I also think I could build upon the solution by feeding my data (NOT THE SPOTIFY CONTENT) into a custom neural net to get even better recommendations rather than just using the dot product.
+Thank you for reading! I hope you enjoyed reading about this project as much as I enjoyed building it! If you have any questions or feedback, please let me know! I think a logical next step would be to use the data I have gathered to get automatically get a new song each week. I also think I could build upon the solution by feeding my data (NOT THE SPOTIFY CONTENT) into a custom neural net to get even better recommendations rather than just using the dot product. If you haven't already, I challenge you to try it out for yourself by following the steps that I illustrated above!
 
 ## Resources for Further Exploration
 
 - [GitHub](https://github.com/bradyrichardson/spotify)
 - [Spotify API](https://developer.spotify.com/documentation/web-api)
 - [PKCE Authentication](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow-with-pkce)
-
-## Conclusion
-
-Thank you for reading! I hope you enjoyed reading about this project as much as I enjoyed building it! If you have any questions or feedback, please let me know!
