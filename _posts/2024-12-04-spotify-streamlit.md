@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The Perfect Song"
+title:  "Spotify Song Finder EDA"
 author: Brady Richardson
-description: Using the Spotify API to identify the perfect song specifically for me.
+description: Doing some exploratory data analysis on my Spotify data.
 image: "https://bradyrichardson.github.io/my-blog-stat386/assets/images/Spotify_Full_Logo_RGB_Green.png"
 ---
 
