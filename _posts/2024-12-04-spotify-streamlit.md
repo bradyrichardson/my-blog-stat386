@@ -20,7 +20,7 @@ Additionally, I created a correlation matrix for my music taste profile:
 
 ![Correlation Matrix](https://bradyrichardson.github.io/my-blog-stat386/assets/images/newplot.png)
 
-It was interesting to see how the features interacted with each other, although I will say that there wasn't anything too surprising. It's obvious even without a matrix that loudness and energy are highly positively correlated. However, there were some interesting insights, such as the fact that acousticness and instrumentalness are relatively uncorrelated with each other. I invite you to look at the Streamlit app to see the interactive correlation matrix for each set of track featurs yourself!
+It was interesting to see how the features interacted with each other, although I will say that there wasn't anything too surprising. It's obvious even without a matrix that loudness and energy are highly positively correlated. However, there were some interesting insights, such as the fact that acousticness and instrumentalness are relatively uncorrelated with each other. I invite you to look at the Streamlit app to see the interactive correlation matrix for each set of track features yourself!
 
 ### Insight 2: How My Taste Profile Differs From the Average Listener in the US
 Another insight I found was how my taste profile differed from the average listener in the US. I'm using the US data here as point of reference because I think it's a more accurate representation of my taste profile than the global data.
