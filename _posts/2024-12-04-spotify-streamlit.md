@@ -6,7 +6,7 @@ description: Doing some exploratory data analysis on my Spotify data.
 image: "https://bradyrichardson.github.io/my-blog-stat386/assets/images/Spotify_Full_Logo_RGB_Green.png"
 ---
 
-![Person Listening to Music]("https://bradyrichardson.github.io/my-blog-stat386/assets/images/person_listening_to_music.png")
+![Person Listening to Music](https://bradyrichardson.github.io/my-blog-stat386/assets/images/person_listening_to_music.png)
 
 ## Introduction
 In this blog post, we'll explore some of the insights I found when I used the Spotify API to analyze my own music taste. I'll also introduce a Streamlit app that allows you to explore the same data in a similar way.
